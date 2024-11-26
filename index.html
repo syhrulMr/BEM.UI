@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM Kampus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center py-3">
+      <h1>BADAN EKSEKUTIF MAHASISWA</h1>
+      <h2>UNIVERSITAS ICHSAN SIDENRENG RAPPANG</h2>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">BEM UI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Program Kerja</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Selamat Datang di Websitenya BEM</h1>
+        <p class="lead">
+          Bersama Kita Membangun Mahasiswa yang Kreatif dan Inspiratif
+        </p>
+        <a href="#tentang-kami" class="btn btn-light btn-lg mt-3"
+          >Pelajari Lebih Lanjut</a
+        >
+      </div>
+    </section>
+
+    <!-- <main class="container my-4">
+      <h2>Selamat Datang di Website BEM Kampus!</h2>
+      <p>Ini adalah tempat informasi lengkap tentang kegiatan BEM kami.</p>
+    </main> -->
+
+    <section id="tentang-kami" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Tentang Kami</h2>
+        <p class="text-center">
+          Badan Eksekutif Mahasiswa (BEM) adalah organisasi mahasiswa yang
+          bertujuan untuk memajukan dan memperjuangkan hak-hak mahasiswa, serta
+          menjadi wadah kreatif bagi pengembangan potensi mahasiswa.
+        </p>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Visi</h5>
+                <p class="card-text text-center">
+                  Menciptakan mahasiswa yang berintegritas, berdaya saing, dan
+                  berdampak bagi masyarakat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Misi</h5>
+                <p class="card-text text-center">
+                  Mewujudkan program kerja yang inovatif, edukatif, dan solutif.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Tujuan</h5>
+                <p class="card-text text-center">
+                  Meningkatkan partisipasi mahasiswa dalam pengembangan kampus
+                  dan masyarakat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="program-kerja" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Program Kerja Unggulan</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Program 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Seminar Nasional</h5>
+                <p class="card-text">
+                  Menghadirkan pembicara nasional untuk memberikan inspirasi
+                  kepada mahasiswa.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Program 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bakti Sosial</h5>
+                <p class="card-text">
+                  Kegiatan pengabdian masyarakat untuk membantu lingkungan
+                  sekitar.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://via.placeholder.com/300x200"
+                class="card-img-top"
+                alt="Program 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Festival Kampus</h5>
+                <p class="card-text">
+                  Acara seni dan budaya yang melibatkan seluruh mahasiswa
+                  kampus.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Galeri Kegiatan</h2>
+        <div class="row g-3">
+          <div class="col-md-3">
+            <img
+              src="https://via.placeholder.com/300x200"
+              class="img-fluid rounded"
+              alt="Kegiatan 1"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://via.placeholder.com/300x200"
+              class="img-fluid rounded"
+              alt="Kegiatan 2"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://via.placeholder.com/300x200"
+              class="img-fluid rounded"
+              alt="Kegiatan 3"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://via.placeholder.com/300x200"
+              class="img-fluid rounded"
+              alt="Kegiatan 4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Kontak Kami</h2>
+        <p class="text-center">Hubungi kami untuk informasi lebih lanjut.</p>
+        <ul class="list-unstyled text-center">
+          <li>Email: bem@universitasichsan.ac.id</li>
+          <li>Telepon: +62 812 3456 7890</li>
+          <li>Alamat: Jl. Pendidikan No. 45, Sidenreng Rappang</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2024 BEM Kampus. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script></script>
+  </body>
+</html>
